@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+		background:rgba(0,0,0,0.8) url(../img/1.jpg) no-repeat -666px 0;
+	}	
+	header{
+		height:70px;
+		width:100%;
+		background:rgba(0,0,0,0.5);
+		position:fixed;
+		bottom:0;
+		left:0;
+		z-index:2;
+	}
+	header div{
+		width:calc(100%/3);
+		float:left;
+		text-align:center;
+	}
+	header div a{
+		display:block;
+		font-size:16px;
+		color:#FFF;
+		line-height:70px;
+	}
+	.data{
+		border-left:1px solid #36C;
+		border-right:1px solid #36C;
+		box-sizing:border-box;
+	}
+	section{
+		height:960px;
+		background:rgba(0,0,0,0.6);
+		position:relative;
+	}
+	.describe{
+		position:absolute;
+		width:200px;
+		left:50%;
+		margin-left:-100px;
+		overflow:hidden;
+		text-align:center;
+	}
+	.describe div{
+		font-size:24px;
+		color:#9C6;
+		margin-top:30px;
+		
+	}
+	.describe span{
+		font-weight:700;
+		display:block;
+		margin-top:300px;
+		font-size:14px;
+		line-height:26px;
+		color:blueviolet;
+	}
+	.music{
+		height:30px;
+		overflow:hidden;
+		width:100%;
+		margin:30px auto;
+		transition:0.3s all ease;
+		cursor:pointer;
+		border-radius:8px;
+	}
+	.music dt{
+		color:palegreen;
+		text-align:center;
+		line-height:30px;
+		height:30px;
+		background:teal;
+	}
+	.music dd{
+		color:#000;
+		line-height:30px;
+		height:30px;
+		background:#FFF;
+		border-top:1px solid #ccc;
+		font-size:14px;
+	}
+	.introduce{
+		width:200px;
+		position:absolute;
+		left:50%;
+		margin-left:-100px;
+		top:360px;
+	}
+	.introduce li{
+		position:absolute;
+		display:none;
+		font-size:16px;
+	}
+	.introduce p{
+		font-size:16px;
+		font-weight:700;
+		color:blueviolet;
+		text-align:center;
+		line-height:26px;
+	}
+	.introduce a{
+		display:block;
+		color:palegreen;
+		background:teal;
+		font-size:16px;
+		width:150px;
+		margin:20px auto 0;
+		text-align:center;
+		line-height:30px;
+		text-decoration:underline;
+		border-radius:8px;
+	}
+	footer{
+		height:140px;
+		font-size:14px;
+		background:rgba(0,0,0,0.8);
+	}
+	footer div{
+		color:#096;
+		text-align:center;
+		line-height:20px;
+	}
+	.copyright{
+		color:#666;
+		display:block;
+		text-align:center;
+		line-height:26px;
+	}
+	
+
+	
+
+
+
