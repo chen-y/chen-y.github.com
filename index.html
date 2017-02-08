@@ -1,64 +1,337 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<title>陈意chenyi</title>
-<link rel="stylesheet" href="css/common.css" />
-<link rel="stylesheet" href="css/animate.css" />
-<link rel="stylesheet" href="css/min-width.css" media="(min-width:641px)" />
-<link rel="stylesheet" href="css/max-width.css" media="(max-width:640px)" />
-<script src="js/home.js">
-</script>
-<style>
-/*@media screen and (max-width:319px){
-	body:after{
-		content:"亲,你的屏幕太小以至于放不下任何东西";
-		font-size:16px;
-		color:red;
-		font-weight:700;
-	}	
-}
-*/</style>
-</head>
-
-<body>
-<header class="content animated fadeInLeft">
-	<div class="skills"><a href="javascript:;">skills</a></div>
-    <div class="data"><a href="javascript:;">message</a></div>
-    <div class="myblogs"><a href="javascript:;">myblogs</a></div>
-</header>
-<section class="animated fadeInDown">
-	<div class="describe animated">
-    	<div class="logo">CHEN YI</div>
-    	<span>您可以通过此页来浏览我的详细资料，因此您可以更加的了解我！</span>
-        <dl class="music">
-        	<dt>我为你准备了一些音乐</dt>
-            <dd>Alan Walker-Faded</dd>
-            <dd>BigBang-If You</dd>
-            <dd>Hymn For The Weekend</dd>
-            <dd>new empire-A Little Braver</dd>
-        </dl>
-    </div>
-	<ul class="introduce">
-    	<li class="animated">
-        	<p>可能您想看看我到底会写什么，自带那些技能，有什么能帮到您！</p>
-            <a href="second/skills.html">点我查看</a>
-        </li>
-    	<li class="animated">
-        	<p>也许您更想了解一下我的个人信息，甚至生活状况，欢迎查看</p>
-            <a href="second/data.html">点我查看</a>
-        </li>
-    	<li class="animated">
-        	<p>或者你更想了解我有哪些爱好，是否是一个乐于分享快乐的人？</p>
-            <a href="second/myblogs.html">点我查看</a>
-        </li>
-    </ul>
-</section>
-<footer class="animated fadeInUp">
-	<div>我叫陈意<br>请记住我</div>
-    <span class="copyright">copyright &copy; 1995-2016 | 陈意</span>
-</footer>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Resume</title>
+		<link href="//cdn.bootcss.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="//cdn.bootcss.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	</head>
+	<body style="padding-top:70px; padding-bottom:70px;">
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">
+						<span class="glyphicon glyphicon glyphicon-user"></span>
+						Chen Yi
+					</a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_toggle">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="nav_toggle">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="javascript:;">Resume</a></li>
+						<li><a href="javascript:;">Contact Me</a></li>
+						<li><a href="javascript:;">Skill</a></li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<button type="button" class="btn btn-success navbar-right">
+							<a href="#">Download</a>
+						</button>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Resume</h3>
+						</div>
+						<div class="panel-body">
+							<a href="#" class="thumbnail">
+								<img src="img/me.jpg" alt="me"/>
+							</a>
+							<p class="text-info text-center">Me</p>
+						</div>
+					</div>
+					<div class="panel panel-success">
+						<div class="panel-heading">
+							<h3 class="panel-title">Contanct Me</h3>
+						</div>
+						<div class="panel-body">
+							<div class="text-capitalize text-justify">Email ： <code class="label label-default"><span class="glyphicon glyphicon-envelope"></span> 409260839@qq.com</code></div>
+							<div class="text-justify text-capitalize">Mobile：<code class="label label-warning"><span class="glyphicon glyphicon-phone"></span> 18221705239</code></div>
+							<div class="text-justify text-capitalize">Where：<code class="label label-default"><span class="glyphicon glyphicon-phone"></span> 上海市闵行区浦江镇</code></div>
+						</div>
+						
+					</div>
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<h3 class="panel-title">Skill</h3>
+						</div>
+						<div class="panel-body">
+							<div class="container-build">
+								<div class="row">
+									<div class="col-sm-3">HTML5</div>
+									<div class="col-sm-9">
+										<div class="progress progress-striped active">
+											<div class="progress-bar progress-bar-success" role="progressbar" style="width: 75%;"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-3">javaScript</div>
+									<div class="col-sm-9">
+										<div class="progress progress-striped active">
+											<div class="progress-bar progress-bar-success" role="progressbar" style="width: 88%;"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-3">CSS3</div>
+									<div class="col-sm-9">
+										<div class="progress progress-striped active">
+											<div class="progress-bar progress-bar-warning" role="progressbar" style="width: 70%;"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-3">CSS</div>
+									<div class="col-sm-9">
+										<div class="progress progress-striped active">
+											<div class="progress-bar progress-bar-info" role="progressbar" style="width: 95%;"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-3">HTML</div>
+									<div class="col-sm-9">
+										<div class="progress progress-striped active">
+											<div class="progress-bar progress-bar-success" role="progressbar" style="width: 85%;"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-3">JQuery</div>
+									<div class="col-sm-9">
+										<div class="progress progress-striped active">
+											<div class="progress-bar progress-bar-success" role="progressbar" style="width: 80%;"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row" style="display: none;">
+									<div class="col-sm-3">angular</div>
+									<div class="col-sm-9">
+										<div class="progress progress-striped active">
+											<div class="progress-bar progress-bar-warning" role="progressbar" style="width: 60%;"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row" style="display: none;">
+									<div class="col-sm-3">vue</div>
+									<div class="col-sm-9">
+										<div class="progress progress-striped active">
+											<div class="progress-bar progress-bar-danger" role="progressbar" style="width: 40%;"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row" style="display: none;">
+									<div class="col-sm-3">react</div>
+									<div class="col-sm-9">
+										<div class="progress progress-striped active">
+											<div class="progress-bar progress-bar-danger" role="progressbar" style="width: 10%;"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row" style="display: none;">
+									<div class="col-sm-3">php</div>
+									<div class="col-sm-9">
+										<div class="progress progress-striped active">
+											<div class="progress-bar progress-bar-danger" role="progressbar" style="width: 20%;"></div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 text-right">
+										<button type="button" class="btn btn-default btn-sm" id="more">more</button>
+									</div>
+								</div>
+								<script type="text/javascript">
+									$('#more').bind('click',function  () {
+										$('div[class=row]:hidden').show();
+									});
+								</script>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-9">
+					<ul id="myTab" class="nav nav-tabs">
+						<li class="active"><a href="#first" data-toggle="tab">About Me</a></li>
+						<li><a href="#second" data-toggle="tab">第二页</a></li>
+						<li><a href="#three" data-toggle="tab">Project</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade in active" id="first">
+							<div class="container-build">
+								<div class="row" style="padding-top:20px;">
+									<div class="col-md-4">
+										<div class="panel panel-info">
+											<div class="panel-heading">
+												<h3 class="panel-title">Job Title</h3>
+											</div>
+											<div class="panel-body">
+												<p class="text-primary text-center">前端开发</p>
+											</div>
+										</div>
+										<div class="panel panel-info">
+											<div class="panel-heading">
+												<h3 class="panel-title">NAME</h3>
+											</div>
+											<div class="panel-body">
+												<p class="text-primary text-center">陈意</p>
+											</div>
+										</div>
+										<div class="panel panel-info">
+											<div class="panel-heading">
+												<h3 class="panel-title">SEX</h3>
+											</div>
+											<div class="panel-body">
+												<p class="text-primary text-center">男</p>
+											</div>
+										</div>
+										<div class="panel panel-info">
+											<div class="panel-heading">
+												<h3 class="panel-title">ADDRESS</h3>
+											</div>
+											<div class="panel-body">
+												<p class="text-primary text-center">上海市闵行区浦江镇沈杜公路滨江道</p>
+											</div>
+										</div>
+										<div class="panel panel-info">
+											<div class="panel-heading">
+												<h3 class="panel-title">EMAIL</h3>
+											</div>
+											<div class="panel-body">
+												<p class="text-primary text-center">409260839@qq.com/<br/>18221705239@163.com</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<a href="javascript:;" class="thumbnail">
+											<img src="img/me.jpg" alt="me" class="img-rounded"/>
+										</a>
+										<a href="javascript:;" class="thumbnail">
+											<img src="img/me1.jpg" alt="me" class="img-rounded"/>
+										</a>
+										<a href="javascript:;" class="thumbnail">
+											<img src="img/me2.jpg" alt="me" class="img-rounded"/>
+										</a>
+									</div>
+									<div class="col-md-4">
+										<div class="panel panel-warning">
+											<div class="panel-heading">
+												<h3 class="panel-title text-center"><strong class="text-primary">我的故事()</strong></h3>
+											</div>
+											<div class="panel-body">
+												<p class="lead text-left" style="text-indent:2em;">各位考官大家好，我叫xxx，就读于xx大学xx专业，我是面临毕业的大三学生，虽然没有全职的工作经验，但是在校期间积极参加学校的各项活动。</p>
+												<p class="lead text-left" style="text-indent:2em;">另外课余时间积极参加一些社会活动，比如参加校内外的礼仪活动，包括剪彩，颁奖，礼仪接待等等。</p>
+												<p class="lead text-left" style="text-indent:2em;">节假日在超市进行烟酒的促销，也在学院招待餐厅工作过，在新生入学阶段销售移动电话卡。只是希望刚毕业能找份可以让我可以学习和锻炼我能力的工作增加经验，为以后的工作生活打好基础，感谢考官倾听我的自我介绍，谢谢大家!</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="second">
+							<div class="panel panel-grounp" id="accordion" style="padding-top:20px;">
+								<div class="panel panel-success">
+									<div class="panel-heading">
+										<h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">第一页</a></h3>
+									</div>
+									<div id="collapseOne" class="panel-collapse collapse in">
+										<div class="panel-body" style="height:500px;"></div>
+									</div>
+								</div>
+								<div class="panel panel-success">
+									<div class="panel-heading">
+										<h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">第2页</a></h3>
+									</div>
+									<div id="collapseTwo" class="panel-collapse collapse">
+										<div class="panel-body" style="height:500px;"></div>
+									</div>
+								</div>
+								<div class="panel panel-success">
+									<div class="panel-heading">
+										<h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">第3页</a></h3>
+									</div>
+									<div id="collapseThree" class="panel-collapse collapse">
+										<div class="panel-body" style="height:500px;"></div>
+									</div>
+								</div>
+								<div class="panel panel-success">
+									<div class="panel-heading">
+										<h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">第4页</a></h3>
+									</div>
+									<div id="collapseFour" class="panel-collapse collapse">
+										<div class="panel-body" style="height:500px;"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="three" style="padding-top:20px;">
+							<div id="myCarousel" class="carousel slide">
+								<ol class="carousel-indicators">
+									<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myCarousel" data-slide-to="1" class="bg-success"></li>
+									<li data-target="#myCarousel" data-slide-to="2"></li>
+									<li data-target="#myCarousel" data-slide-to="4"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="item active">
+										<img src="img/banner1.png" alt="workImg" />
+										<div class="carousel-caption">短信页面按钮功能及效果1</div>
+									</div>
+									<div class="item">
+										<img src="img/banner2.png" alt="workImg" />
+										<div class="carousel-caption">短信页面按钮功能及效果2</div>
+									</div>
+									<div class="item">
+										<img src="img/banner3.png" alt="workImg" />
+										<div class="carousel-caption">短信页面按钮功能及效果3</div>
+									</div>
+									<div class="item">
+										<img src="img/banner4.png" alt="workImg" />
+										<div class="carousel-caption">短信页面按钮功能及效果4</div>
+									</div>
+								</div>
+								<a href="#myCarousel" class="carousel-control left text-center" data-slide="prev">&lsaquo;</a>
+								<a href="#myCarousel" class="carousel-control right" data-slide="next">&rsaquo;</a>
+							</div>
+						</div>
+					</div>
+					<script type="text/javascript">
+						$(function  () {
+							$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+							    // 获取已激活的标签页的名称
+							    var activeTab = $(e.target).text();
+							    // 获取前一个激活的标签页的名称
+							    var previousTab = $(e.relatedTarget).text();
+							    $(".active-tab span").html(activeTab);
+							    $(".previous-tab span").html(previousTab);
+							});
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="jumbotron">
+			<div class="container-build">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="text text-center">此页面由bootstrap完成编写 <span class="glyphicon glyphicon-copyright-mark"></span> 陈意</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
 </html>
